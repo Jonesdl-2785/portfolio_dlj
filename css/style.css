@@ -73,7 +73,11 @@ p.sub {
 
 .skillsSection,
 .contactSection {
+<<<<<<< HEAD
 	background-color: #BD9252;
+=======
+	background-color: #c0392b;
+>>>>>>> master
 	color: #fff;
 }
 
@@ -142,7 +146,11 @@ p.sub {
 	font-size: 56px;
 	margin-bottom: 10px;
 	font-weight: 400;
+<<<<<<< HEAD
 	color: #BD9252;
+=======
+	color: #c0392b;
+>>>>>>> master
 
 }
 
@@ -177,7 +185,11 @@ p.sub {
 
 .contactBtn:hover {
   text-decoration: none;
+<<<<<<< HEAD
   color: #BD9252;
+=======
+  color: #c0392b;
+>>>>>>> master
   background-color: #fff;
 }
 
@@ -205,8 +217,13 @@ p.sub {
 }
 
 .filter .current {
+<<<<<<< HEAD
 	background-color: #BD9252;
 	border-color: #BD9252;
+=======
+	background-color: #c0392b;
+	border-color: #c0392b;
+>>>>>>> master
 	color: #fff;
 }
 
@@ -315,7 +332,11 @@ p.sub {
 }
 
 .copyrightSection {
+<<<<<<< HEAD
   background-color: #BD9252;
+=======
+  background-color: #c0392b;
+>>>>>>> master
   color: #fff;
   padding: 30px 5px;
 }
@@ -324,7 +345,11 @@ p.sub {
 }
 
 #navigation {
+<<<<<<< HEAD
   background-color: #BD9252;
+=======
+  background-color: #c0392b;
+>>>>>>> master
   padding: 20px 10px;
   z-index: 100;
   width: 100%;
