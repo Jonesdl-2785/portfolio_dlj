@@ -2,6 +2,15 @@ $(window).on("load", function() {
 	$(".loader .inner").fadeOut(500, function() {
 			$(".loader").fadeOut(750);
 	});
+
+	$(".items").isotope({
+		filter: '*',
+		animationOptions: {
+			duration: 1500,
+			easing: 'linear',
+			queue: false
+		}
+	});
 })
 
 $(document).ready(function() {
@@ -13,7 +22,7 @@ $(document).ready(function() {
 	});
 
 	let typed = new Typed('.typed', {
-		strings: ['Web Developer.', 'Web Designer.'],
+		strings: ['Web Developer.', 'Front End.', 'Back End.', 'Email Developer.', 'Database.'],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
@@ -79,14 +88,14 @@ $(document).ready(function() {
 
 		$("[data-fancybox]").fancybox();
 
-		$(".items").isotope({
-			filter: '*',
-			animationOptions: {
-				duration: 1500,
-				easing: 'linear',
-				queue: false
-			}
-		});
+		// $(".items").isotope({
+		// 	filter: '*',
+		// 	animationOptions: {
+		// 		duration: 1500,
+		// 		easing: 'linear',
+		// 		queue: false
+		// 	}
+		// });
 
 		$("#filters a").click(function() {
 			$("#filters .current").removeClass("current");
